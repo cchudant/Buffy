@@ -111,7 +111,7 @@ public class Brainfuck {
 							"The loop limit is exceeded (Loop limit set to " + loopLimit + ")");
 
 				if (cells[cursor] != 0) {
-					i = loops.get(loops.size() - 1) - 1;
+					i = loops.get(loops.size() - 1);
 				} else {
 					loops.remove(loops.size() - 1);
 				}
